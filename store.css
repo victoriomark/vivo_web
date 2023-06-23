@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card_container{
+
+ justify-content: center;
+    align-items: center;
+    margin: 10rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.card_container img{
+    width: 100px;
+    margin: 10px;
+}
+.card_container .card{
+    width: 30%;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: 0.5s;
+}
+ .card .content h1{
+    font-size: 0.5rem;
+}
+   
+.card:hover{
+    transform: translateY(2%);
+}
+.card .price{
+    color: red;
+}
+header{
+    width: 100%;
+}
+ .footer{
+  margin-top: 80%;
+}
+.opt{
+position: absolute;
+   min-width: 90%;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    border-radius: 10px;
+    top: 5rem;
+    align-items: center;
+    height: 5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   
+}
+.opt ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+li:hover{
+    color: aqua;
+}
+.opt ul li{
+    list-style: none;
+
+}
+.opt ul li:first-child{
+    color: aqua;
+}
+button{
+    width:100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-size: 0.6em;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    margin: 10px;
+    font-weight: 900;
+    
+    color: goldenrod;
+    margin-left: -2rem;
+    border: none;
+    background-color: #FFFF;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+button:hover{
+    background-color: #222;
+}
+button:active{
+    transform: scale(1.06);
+}
